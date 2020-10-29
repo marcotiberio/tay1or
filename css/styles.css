@@ -1,0 +1,222 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+@font-face {
+	font-family: 'ProphetTrial-Bold';
+    src: url(../otf/ProphetTrial-Bold.otf) format('truetype'),
+        url(../otf/ProphetTrial-Bold.woff2) format('woff2'),
+        url(../otf/ProphetTrial-Bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family: 'ProphetTrial-Bold', arial, sans-serif;
+}
+
+.section {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    height: 100%;
+    width: 550vw;
+}
+
+.fullpane {
+    height: 100%;
+    width: 100vw;
+    float: left;
+    position: relative;
+}
+
+.maintext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    width: 80%;
+    text-align: center;
+}
+
+.secondarytext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    text-align: center;
+}
+
+/*--1--ITV1--*/
+
+#itv1 {
+    background-color: #FE4E4E;
+}
+
+.halfpane {
+    height: 100%;
+    width: 50vw;
+    float: left;
+    position: relative;
+}
+
+.itv1pictureWrapper {
+    height: 50%;
+    width: 100%;
+}
+
+.itv1picture {
+    margin: 5% 5% 5% 5%;
+    height: 80%;
+    width: 90%;
+    background-size: cover;
+    background-position: center;
+    border-radius:30px;
+}
+
+.shift {
+    transform: translate(90px, 0);
+}
+
+/*--2--tvshows--*/
+
+.tvWrapper {
+    background-color:black;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+}
+
+img.tvshow {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+} 
+
+/*--5--setphotography--*/
+
+.setPhotographyImg, #setPhotography4 {
+    opacity: 0;
+}
+
+#setPhotography2, #setPhotography3 {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.setPhotographyImg1 {
+ height: 100%;
+}
+
+.setPhotography4 {
+    opacity: 0;
+}
+
+.vogue, .setImg {
+    position: absolute;
+    height: 35%;
+}
+
+
+/*--6--fridge--*/
+.svgWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+/*--7--art--*/
+
+.artImages {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*--8--burglary--*/
+
+.burglaryImg {
+position: absolute;
+left: 0;
+top:0;
+height: 100%;
+width: 100%;
+background-size: cover;
+background-position: center;
+opacity: 0;
+}
+
+.flash {
+    background-color: black;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*--9--burglary--*/
+
+.here {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+    font-size:50px;
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+
+#intro {
+    background-color: #FEE94E;
+}
+
+#tvshows {
+    background-color: #4EEEFB;
+}
+
+#edwardwilliams {
+    background-color: #FFF5DF;
+}
+
+#dairylea {
+    background-color: #8329FF;
+}
+
+#setphotography {
+    background-color: #FFD9D9;
+}
+
+#fridge {
+    background-color: #0B0B0B;
+}
+
+#art {
+    background-color: #4E84FE;
+}
+
+#burglary {
+    background-color: #FBC64E;
+}
+
+#email {
+    background-color: #FEE94E;
+}
