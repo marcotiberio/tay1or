@@ -16,7 +16,7 @@ echo'
         </div>
         <div class="halfpane">
             <div class="itv1pictureWrapper shift">
-                <img class="itv1picture" src="img/1pix.gif" style="background-image: url(\'../img/ITV-1.jpg\');">
+                <img class="itv1picture" src="img/1pix.gif" style="background-image: url(\'https://raw.githubusercontent.com/marcotiberio/tay1or/gh-pages/img/ITV-1.jpg\');">
             </div>
             <div class="itv1pictureWrapper">
                 <img class="itv1picture" src="img/1pix.gif" style="background-image: url(\'../img/ITV-2.jpg\');">
